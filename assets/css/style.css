@@ -1,0 +1,95 @@
+body {
+  background-color: #dcc0a6;
+}
+
+.title {
+  text-align: center;
+  font-size: 34px;
+}
+
+.threadWrapper {
+  background-color: #f3eded;
+  padding: 10px;
+  max-width: 1300px;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.childWrapper {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.threadTitle {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  margin-left: 6px;
+  height: 60px;
+}
+
+.threadTitle h1 {
+  color: red;
+  margin-left: 3px;
+  font-size: 27px;
+}
+
+section {
+  padding: 0 10px;
+}
+
+section .nameArea {
+  display: flex;
+  align-items: center;
+  margin-bottom: -14px;
+}
+
+section .username {
+  color: green;
+  font-weight: 700;
+}
+
+section .comment {
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+.formWrapper {
+  padding: 16px;
+  margin-left: 20px;
+}
+
+.commentTextArea {
+  margin-top: 10px;
+  width: 500px;
+  height: 90px;
+  resize: none;
+}
+
+.errorMessage {
+  color: red;
+  margin-left: 70px;
+}
+
+/* 新規スレッド */
+.newThreadWrapper {
+  background-color: #b3eeb3;
+  padding: 10px;
+  max-width: 1300px;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.newChildThreadWrapper {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.newChildThreadWrapper button a {
+  width: 150px;
+  color: black;
+  text-decoration: none;
+}
